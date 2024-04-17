@@ -1,0 +1,48 @@
+body {
+    font-family:system-ui;
+    background-color: lightblue;
+    padding: 15px 15px 15px 15px;
+}
+.form-section {
+    margin-bottom: 20px;
+}
+label {
+    display: inline-block;
+    width: 150px;
+}
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+    width: 250px;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+#NombreApellidos,
+#FechaNacimiento,
+#Ocupacion,
+#Contacto,
+#Nacionalidad,
+#NivelIngles,
+#LenguajesProgramacion,
+#Aptitudes,
+#Perfil {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 3px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
